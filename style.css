@@ -4,6 +4,11 @@
 	padding: 1em;
 }
 
+.nav-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 h3 {
 	text-align: center;
 }
@@ -12,3 +17,15 @@ input {
 	border: none;
 	background-color: white;
 }
+
+.receipt-container {
+	border: 1px solid black;
+	margin: 1em;
+	padding: 1em;
+}
+
+/* display: flex;
+display: grid;
+grid-gap: 2em 2em;
+grid-template-columns: repeat(1, 1fr); */
+
