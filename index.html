@@ -4,38 +4,147 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Poppins:wght@300;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+
 		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
 	<body>
 		<!-- Nav container -->
 		<div class="nav-container">
-			<h3 class="grandTotalText">Grand Total:</h3>
-			<h3 class="elonMoney"></h3>
+			<p class="grandTotalText">Grand Total:</p>
+			<p class="elonMoney"></p>
 		</div>
 
+		<!-- Title container -->
+		<section class="header-section">
+			<h1>Spend Elon Musk's fortune</h1>
+			<p
+				>Elon Musk is now the richest man in the world. He has 244.2 billion USD
+				net worth (2022). <br />Have now a chance to spend Elon Musk's
+				fortune!</p
+			>
+			<p>Made with &#10084;&#65039; by Charlito Mecarez Jr.</p>
+			<p>!! This is a prototype version. Not yet done. !!</p>
+			<p
+				>Inspired by <a href="https://neal.fun/" target="_blank">neal.fun</a>,
+				created by Nino</p
+			>
+		</section>
+
 		<!-- Body container -->
-		<div class="container">
-			<div class="product">
-				<h1>Computer</h1>
-				<span>₱1,000.00</span>
-				<span></span>
-				<span>SubTotal: </span>
+		<div class="body-container">
+			<div class="container">
+				<div class="product">
+					<img
+						class="productImage"
+						src="https://images.unsplash.com/photo-1618677831708-0e7fda3148b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+						alt=""
+					/>
+					<p class="productName">Nike Off White</p>
+					<span class="price">₱56,282.00</span>
+					<span class="quantityText">x</span>
+					<span class="totalPrice"></span>
+				</div>
+				<div class="button-container">
+					<button class="increment" type="button"
+					>+</i
+					></button>
+					<input type="text" value="0" name="" id="" disabled />
+					<button class="decrement" type="button">-</button>
+				</div>
 			</div>
-			<button class="increment" type="button">increment</button>
-			<input type="text" value="0" name="" id="" disabled />
-			<button class="decrement" type="button">decrement</button>
-		</div>
-		<div class="container">
-			<div class="product">
-				<h1>iPhone 12</h1>
-				<span>₱4,000.00</span>
-				<span></span>
-				<span>SubTotal: </span>
+			<div class="container">
+				<div class="product">
+					<img
+						class="productImage"
+						src="https://images.unsplash.com/photo-1572314493295-09c6d5ec3cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+						alt=""
+					/>
+					<p class="productName">Gaming Computer</p>
+					<span class="price">₱40,932.00</span>
+					<span class="quantityText">x</span>
+					<span class="totalPrice"></span>
+				</div>
+				<div class="button-container">
+					<button class="increment" type="button"
+					>+</i
+					></button>
+					<input type="text" value="0" name="" id="" disabled />
+					<button class="decrement" type="button">-</button>
+				</div>
 			</div>
-			<button class="increment" type="button">increment</button>
-			<input type="text" value="0" name="" id="" disabled />
-			<button class="decrement" type="button">decrement</button>
+			<div class="container">
+				<div class="product">
+					<img
+						class="productImage"
+						src="https://images.unsplash.com/photo-1519245659620-e859806a8d3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+						alt=""
+					/>
+					<p class="productName">Lamborghini</p>
+					<span class="price">₱10,233,100.00</span>
+					<span  class="quantityText">x</span>
+					<span class="totalPrice"></span>
+				</div>
+				<div class="button-container">
+					<button class="increment" type="button"
+					>+</i
+					></button>
+					<input type="text" value="0" name="" id="" disabled />
+					<button class="decrement" type="button">-</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="product">
+					<img
+						class="productImage"
+						src="https://images.unsplash.com/photo-1607936854279-55e8a4c64888?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+						alt=""
+					/>
+					<p class="productName">iPhone 12</p>
+					<span class="price">₱44,990.00</span>
+					<span class="quantityText">x</span>
+					<span class="totalPrice"></span>
+				</div>
+				<div class="button-container">
+					<button class="increment" type="button"
+					>+</i
+					></button>
+					<input type="text" value="0" name="" id="" disabled />
+					<button class="decrement" type="button">-</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="product">
+					<img
+						class="productImage"
+						src="https://images.unsplash.com/photo-1607936854279-55e8a4c64888?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+						alt=""
+					/>
+					<p class="productName">iPhone 12</p>
+					<span class="price">₱44,990.00</span>
+					<span class="quantityText">x</span>
+					<span class="totalPrice"></span>
+				</div>
+				<div class="button-container">
+					<button class="increment" type="button"
+					>+</i
+					></button>
+					<input type="text" value="0" name="" id="" disabled />
+					<button class="decrement" type="button">-</button>
+				</div>
+			</div>
 		</div>
 
 		<div class="receipt"></div>
